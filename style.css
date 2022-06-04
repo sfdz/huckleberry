@@ -9,4 +9,28 @@ body {
   padding: 0;
 }
 
+.intro-chunk {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%)
+}
+
 /* Add styles here! */
+.max-width-wrapper {
+  padding-left: 32px;
+  padding-right: 32px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
