@@ -9,11 +9,6 @@ body {
   padding: 0;
 }
 
-.intro-chunk {
-  margin-top: 6rem;
-  margin-bottom: 4rem;
-}
-
 h1 {
   margin-bottom: 4rem;
 }
@@ -26,11 +21,27 @@ strong {
   color: hsl(160deg, 100%, 30%)
 }
 
-/* Add styles here! */
 .max-width-wrapper {
   padding-left: 32px;
   padding-right: 32px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.intro-chunk {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding-left: 1rem;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  padding-left: 1rem;
 }
