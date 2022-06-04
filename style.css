@@ -38,10 +38,25 @@ strong {
 main {
   background-color: hsl(0deg, 0%, 60%);
   border-top: 8px solid hsl(0deg, 0%, 30%);
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .card {
   background-color: white;
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
   padding-left: 1rem;
+  padding-top: 8px;
+}
+
+.indented-heading {
+  margin-left: -32px;
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
